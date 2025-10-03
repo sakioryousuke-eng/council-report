@@ -1,1 +1,143 @@
+{
+  "site": {
+    "title": "崎尾 亮介 活動レポート",
+    "subtitle": "公約の進捗と地域活動をワンクリックで確認できます",
+    "updated_at": "2025-10-03 11:28",
+    "links": [
+      {
+        "label": "X(旧Twitter)",
+        "href": "https://x.com/"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://facebook.com/"
+      },
+      {
+        "label": "お問い合わせ(メール)",
+        "href": "mailto:someone@example.com"
+      }
+    ]
+  },
+  "manifesto": [
+    {
+      "title": "学校施設の長寿命化の前倒し",
+      "status": "wip",
+      "department": "教育委員会",
+      "period": "2025年度～",
+      "tags": [
+        "学校施設",
+        "インフラ",
+        "安全"
+      ],
+      "body": "国・県補助の内示状況を踏まえ、優先度の高い校舎改修を前倒しで実施する提案。所管と進捗会議を設定し、年次の工程を公開。",
+      "links": [
+        {
+          "label": "議事録(外部リンク)",
+          "href": "https://example.com"
+        }
+      ]
+    },
+    {
+      "title": "行政DXの推進（AI×RPA）",
+      "status": "partial",
+      "department": "総務課",
+      "period": "2024-2026",
+      "tags": [
+        "DX",
+        "AI",
+        "業務効率"
+      ],
+      "body": "定型業務の自動化で職員の市民向け時間を創出。パイロット2業務で成果確認し、BPRと合わせて横展開。",
+      "links": [
+        {
+          "label": "進捗メモ(PDF)",
+          "href": "https://example.com/progress.pdf"
+        }
+      ]
+    },
+    {
+      "title": "子どもの体験・交流機会の拡充（eスポーツ含む）",
+      "status": "done",
+      "department": "子ども未来課",
+      "period": "2024年度",
+      "tags": [
+        "子育て",
+        "教育",
+        "交流"
+      ],
+      "body": "学校・地域・民間が連携した交流イベントを定期化。非営利・ガイドライン遵守で安全に実施。",
+      "links": []
+    },
+    {
+      "title": "清掃センター更新事業の透明化",
+      "status": "wip",
+      "department": "環境課",
+      "period": "継続",
+      "tags": [
+        "環境",
+        "財政",
+        "大型事業"
+      ],
+      "body": "予算・工程・意思決定の見える化を進め、主要マイルストーンと根拠資料を公開する。",
+      "links": []
+    }
+  ],
+  "activities": [
+    {
+      "title": "地域レク＆eスポーツ交流会を開催",
+      "date": "2025-09-28",
+      "location": "三和小学校",
+      "tags": [
+        "eスポーツ",
+        "地域交流",
+        "PTA"
+      ],
+      "body": "スマブラ・ぷよぷよ等、非営利での交流会を開催。安全管理とガイドラインを遵守。",
+      "links": [
+        {
+          "label": "開催概要(外部)",
+          "href": "https://example.com/outline"
+        }
+      ],
+      "media": []
+    },
+    {
+      "title": "一般質問：学校施設の優先度と補助金活用",
+      "date": "2025-09-30",
+      "location": "日田市議会",
+      "tags": [
+        "学校施設",
+        "議会"
+      ],
+      "body": "老朽化対策の優先順位と国県補助の確実な確保について質疑。",
+      "links": [
+        {
+          "label": "ライブ/録画",
+          "href": "https://example.com/live"
+        }
+      ],
+      "media": []
+    },
+    {
+      "title": "行政DX先進自治体の事例調査",
+      "date": "2025-09-20",
+      "location": "中津市",
+      "tags": [
+        "DX",
+        "調査"
+      ],
+      "body": "AI×RPAの導入実態、通信帯域、教育現場の端末運用などを調査。",
+      "links": [],
+      "media": []
+    }
+  ],
+  "news": [
+    {
+      "title": "サイト公開のお知らせ",
+      "date": "2025-10-03",
+      "body": "活動の可視化と説明責任強化のため、サイトを公開しました。",
+      "links": []
+    }
+  ]
+}
 
