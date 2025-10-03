@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2025-10-03T15:34:33",
-    "author": "ChatGPT",
+    "generated_at": "2025-10-04",
+    "source_policy": "一次情報（一般質問表PDF 2023/09-2025/09、崎尾議員の議事録Word 2023/09-2025/06）を一次根拠に整理。本文の説明は要約のみ。",
     "scope": {
       "pdf_general_question_tables": [
         "20230908situmon.pdf",
@@ -20,357 +20,140 @@
         "02_崎尾議員 (1).docx",
         "13_崎尾議員.docx",
         "16_崎尾議員 (1).docx",
-        "12_崎尾議員.doc",
-        "10_崎尾議員.doc"
-      ]
-    },
-    "policy": "一次情報（一般質問表PDF／議事録Word）のみを一次根拠として要約。"
-  },
-  "schema": {
-    "pledges": {
-      "fields": [
-        "id",
-        "title",
-        "description",
-        "status",
-        "last_updated",
-        "evidence",
-        "related_questions",
-        "related_councillors"
-      ],
-      "status_vocab": [
-        "not_started",
-        "in_discussion",
-        "in_progress",
-        "accelerating",
-        "starting_rollout",
-        "completed",
-        "under_review"
-      ]
-    },
-    "community_activities": {
-      "fields": [
-        "id",
-        "title",
-        "period",
-        "description",
-        "evidence"
+        "12_崎尾議員.doc"
       ]
     }
   },
-  "pledges": [
+  "matrix": [
     {
-      "id": "P1",
-      "title": "学びの多様化・不登校支援（フリースクール等）",
-      "description": "不登校生徒の学びの場拡充と、学校外の居場所・支援体制の強化。",
-      "status": "in_progress",
-      "last_updated": "2025-06",
-      "evidence": [
-        {
-          "source": "20230908situmon.pdf",
-          "note": "不登校の現状・原因・対策を一般質問。"
-        },
-        {
-          "source": "202406ippan.pdf",
-          "note": "フリースクール拡充を一般質問。"
-        },
-        {
-          "source": "202506_ippansitumon.pdf",
-          "note": "高校生の不登校／こども総合局（仮称）を一般質問。"
-        },
-        {
-          "source": "02_崎尾議員 (1).docx",
-          "note": "他自治体比較・制度制約の具体化（議事録）。"
-        },
-        {
-          "source": "12_崎尾議員.doc",
-          "note": "相談員・居場所づくりなど実務論点（議事録）。"
-        }
-      ],
-      "related_questions": [
+      "theme_id": "T1",
+      "theme": "不登校・フリースクール",
+      "sakio": [
         {
           "date": "2023-09",
-          "topic": "truancy_support"
+          "items": ["学校の安全","不登校の現状と対策"],
+          "minutes_note": "やまびこ学級の実態、家庭・学校外の居場所の必要性"
         },
         {
           "date": "2024-06",
-          "topic": "free_school_expansion"
+          "items": ["フリースクール拡充"],
+          "minutes_note": "玖珠町との比較、利用料補助の制限を指摘"
         },
         {
           "date": "2025-06",
-          "topic": "high_school_truancy"
+          "items": ["高校生の不登校","こども総合局（仮称）"],
+          "minutes_note": "相談員配置・居場所確保など連携の具体論"
         }
       ],
       "related_councillors": [
-        {
-          "name": "松野勝美",
-          "date": "2025-03",
-          "topic": "不登校対策（一般質問表）"
-        },
-        {
-          "name": "中島章二",
-          "date": "2024-12",
-          "topic": "不登校児童生徒（一般質問表）"
-        },
-        {
-          "name": "岩見泉哉",
-          "date": "2024-12",
-          "topic": "児童生徒の不登校（一般質問表）"
-        }
+        { "name": "松野勝美", "date": "2023-09", "topic": "不登校対策" },
+        { "name": "松野勝美", "date": "2025-03", "topic": "不登校対策" },
+        { "name": "中島章二", "date": "2024-12", "topic": "不登校児童生徒" },
+        { "name": "岩見泉哉", "date": "2024-12", "topic": "不登校児童生徒" },
+        { "name": "原田裕文", "date": "2024-12", "topic": "中学校不登校生徒の進学" }
       ]
     },
     {
-      "id": "P2",
-      "title": "学力向上",
-      "description": "学力調査の分析と授業改善サイクルを構築し、基礎学力を底上げ。",
-      "status": "in_progress",
-      "last_updated": "2024-12",
-      "evidence": [
-        {
-          "source": "202312gikai.pdf",
-          "note": "小中学生の学力（県・市独自調査）を一般質問。"
-        },
-        {
-          "source": "202409gikai.pdf",
-          "note": "全国学力・学習状況調査の分析（関連）。"
-        },
-        {
-          "source": "202503_ippanshitumon.pdf",
-          "note": "給食・部活動など学習環境の補助線（関連）。"
-        }
-      ],
-      "related_questions": [
-        {
-          "date": "2023-12",
-          "topic": "academic_achievement"
-        },
-        {
-          "date": "2024-09",
-          "topic": "national_assessment_followup"
-        }
+      "theme_id": "T2",
+      "theme": "学力・学校施設",
+      "sakio": [
+        { "date": "2023-12", "items": ["小中学生の学力"], "minutes_note": "" },
+        { "date": "2025-03", "items": ["部活動と地域クラブ活動","学校給食"], "minutes_note": "" },
+        { "date": "2025-06", "items": ["学校施設長寿命化計画","鼓笛活動"], "minutes_note": "" },
+        { "date": "2025-09", "items": ["体育館空調方針"], "minutes_note": "国の補助スキーム・光熱費措置を踏まえ加速" }
       ],
       "related_councillors": [
-        {
-          "name": "宮﨑陽治",
-          "date": "2024-03",
-          "topic": "学校教育の現状（一般質問表）"
-        },
-        {
-          "name": "佐藤孝彰",
-          "date": "2024-09",
-          "topic": "学校給食（一般質問表）"
-        }
+        { "name": "大谷敏彰", "date": "2025-03", "topic": "体育館空調" },
+        { "name": "今井美保", "date": "2025-09", "topic": "特別支援教育・働き方改革" },
+        { "name": "井上正一郎", "date": "2024-09", "topic": "小中学校統廃合" },
+        { "name": "佐藤孝彰", "date": "2024-09", "topic": "学校給食" }
       ]
     },
     {
-      "id": "P3",
-      "title": "学校施設の充実（体育館空調・長寿命化・防災拠点）",
-      "description": "長寿命化と体育館空調を進め、避難所機能の確保と学習環境の改善を図る。",
-      "status": "accelerating",
-      "last_updated": "2025-09",
-      "evidence": [
-        {
-          "source": "202506_ippansitumon.pdf",
-          "note": "学校施設長寿命化計画を一般質問。"
-        },
-        {
-          "source": "202509_ippanshitumonhyou (1).pdf",
-          "note": "屋内体育施設の空調方針を一般質問。"
-        },
-        {
-          "source": "10_崎尾議員.doc",
-          "note": "国補助1/2＋交付税措置、光熱費措置、市長『検討を急ぐ』等（議事録）。"
-        }
-      ],
-      "related_questions": [
-        {
-          "date": "2025-06",
-          "topic": "facility_lifespan_plan"
-        },
-        {
-          "date": "2025-09",
-          "topic": "gym_air_conditioning_policy"
-        }
+      "theme_id": "T3",
+      "theme": "福祉・市民生活",
+      "sakio": [
+        { "date": "2024-12", "items": ["熱中症対策"], "minutes_note": "高齢者・学校環境の実態を確認" },
+        { "date": "2024-12", "items": ["自転車罰則周知"], "minutes_note": "外国人観光客対応・レンタサイクル周知" }
       ],
       "related_councillors": [
-        {
-          "name": "大谷敏彰",
-          "date": "2025-03",
-          "topic": "体育館空調（一般質問表）"
-        }
+        { "name": "梶原信幸", "date": "2024-06", "topic": "高齢者エアコン補助（暑さ対策）" },
+        { "name": "大谷敏彰", "date": "2023-06", "topic": "学校体育館エアコン（暑さ対策）" }
       ]
     },
     {
-      "id": "P4",
-      "title": "観光・文化資源の活用と財源（入湯税・宿泊税）",
-      "description": "鵜飼や豆田町などの保存活用と、入湯税／宿泊税等の財源を両立させる。",
-      "status": "in_progress",
-      "last_updated": "2025-06",
-      "evidence": [
-        {
-          "source": "202403_shigikai.pdf",
-          "note": "観光DX・豆田町・入湯税を一般質問。"
-        },
-        {
-          "source": "202412ippannsitumonn.pdf",
-          "note": "鵜飼の保存活用を一般質問。"
-        },
-        {
-          "source": "202503_ippanshitumon.pdf",
-          "note": "観光振興・外国人受入れを一般質問。"
-        },
-        {
-          "source": "202506_ippansitumon.pdf",
-          "note": "宿泊税導入に伴う課題を一般質問。"
-        }
-      ],
-      "related_questions": [
-        {
-          "date": "2024-03",
-          "topic": "tourism_dx_and_bath_tax"
-        },
-        {
-          "date": "2024-12",
-          "topic": "ukai_preservation"
-        },
-        {
-          "date": "2025-03",
-          "topic": "tourism_promotion_and_foreign"
-        },
-        {
-          "date": "2025-06",
-          "topic": "accommodation_tax_issues"
-        }
+      "theme_id": "T4",
+      "theme": "観光・文化・財源",
+      "sakio": [
+        { "date": "2024-03", "items": ["観光DX","豆田町の展望","入湯税"], "minutes_note": "" },
+        { "date": "2024-12", "items": ["鵜飼の保存活用"], "minutes_note": "" },
+        { "date": "2025-03", "items": ["観光振興","外国人受入"], "minutes_note": "" },
+        { "date": "2025-06", "items": ["宿泊税導入の課題"], "minutes_note": "" }
       ],
       "related_councillors": [
-        {
-          "name": "坂本茂",
-          "date": "2024-03",
-          "topic": "咸宜園・世界遺産（一般質問表）"
-        },
-        {
-          "name": "原田裕文",
-          "date": "2025-06",
-          "topic": "咸宜園・豆田世界遺産（一般質問表）"
-        },
-        {
-          "name": "梶原信幸",
-          "date": "2025-06",
-          "topic": "小鹿田焼の観光振興（一般質問表）"
-        },
-        {
-          "name": "松野勝美",
-          "date": "2025-09",
-          "topic": "観光振興（一般質問表）"
-        },
-        {
-          "name": "宮﨑陽治",
-          "date": "2025-09",
-          "topic": "豆田町伝建地区の保存・活用（一般質問表）"
-        }
+        { "name": "坂本茂", "date": "2024-03", "topic": "咸宜園世界遺産" },
+        { "name": "坂本茂", "date": "2025-06", "topic": "観光振興" },
+        { "name": "原田裕文", "date": "2025-06", "topic": "咸宜園・豆田町世界遺産" },
+        { "name": "宮﨑陽治", "date": "2025-09", "topic": "豆田町伝建地区保存" },
+        { "name": "松野勝美", "date": "2025-09", "topic": "観光振興" },
+        { "name": "梶原信幸", "date": "2025-06", "topic": "小鹿田焼観光" }
       ]
     },
     {
-      "id": "P5",
-      "title": "行政のデジタル化・生成AI活用",
-      "description": "BPR/RPAに続き、生成AI等を活用して行政効率化と市民サービス向上を図る。",
-      "status": "starting_rollout",
-      "last_updated": "2025-09",
-      "evidence": [
-        {
-          "source": "202509_ippanshitumonhyou (1).pdf",
-          "note": "行政デジタル化と生成AI活用を一般質問。"
-        },
-        {
-          "source": "10_崎尾議員.doc",
-          "note": "AI利用ガイドライン策定、職員研修→段階導入、DXリーダー配置検討、ネットワーク増強（議事録）。"
-        }
-      ],
-      "related_questions": [
-        {
-          "date": "2025-09",
-          "topic": "gov_digital_ai"
-        }
+      "theme_id": "T5",
+      "theme": "インフラ・環境",
+      "sakio": [
+        { "date": "2023-12", "items": ["山田原畜産臭気"], "minutes_note": "" },
+        { "date": "2024-06", "items": ["新清掃センターの安全と合意形成"], "minutes_note": "" }
       ],
       "related_councillors": [
-        {
-          "name": "中原晴剛",
-          "date": "2024-03",
-          "topic": "第4次情報化基本計画（一般質問表）"
-        },
-        {
-          "name": "中原晴剛",
-          "date": "2024-12",
-          "topic": "デジタル人材育成（一般質問表）"
-        },
-        {
-          "name": "梶原信幸",
-          "date": "2025-03",
-          "topic": "行政情報化の推進（一般質問表）"
-        }
+        { "name": "高倉貴子", "date": "2024-09", "topic": "新清掃センター見直し" },
+        { "name": "中原晴剛", "date": "2025-03", "topic": "新清掃センター安全" },
+        { "name": "梅原竜也", "date": "2025-06", "topic": "新清掃センター進捗" }
       ]
     },
     {
-      "id": "P6",
-      "title": "投票環境の改善",
-      "description": "期日前投票の利便性や過疎地域の投票機会確保など、公平で参加しやすい環境整備。",
-      "status": "under_review",
-      "last_updated": "2025-09",
-      "evidence": [
-        {
-          "source": "202509_ippanshitumonhyou (1).pdf",
-          "note": "投票環境の改善を一般質問。"
-        },
-        {
-          "source": "10_崎尾議員.doc",
-          "note": "期日前7・当日54、移動投票所・送迎は現時点未導入／継続検討（議事録）。"
-        }
-      ],
-      "related_questions": [
-        {
-          "date": "2025-09",
-          "topic": "voting_environment"
-        }
+      "theme_id": "T6",
+      "theme": "行政・DX・AI",
+      "sakio": [
+        { "date": "2025-09", "items": ["行政デジタル化","生成AI活用"], "minutes_note": "AIガイドライン・職員研修→段階導入・DXリーダー配置検討" }
       ],
       "related_councillors": [
-        {
-          "name": "松野勝美",
-          "date": "2023-12",
-          "topic": "投票支援カード（一般質問表）"
-        },
-        {
-          "name": "梶原信幸",
-          "date": "2024-09",
-          "topic": "投票率向上策（一般質問表）"
-        }
+        { "name": "中原晴剛", "date": "2024-03", "topic": "情報化基本計画" },
+        { "name": "中原晴剛", "date": "2024-12", "topic": "デジタル人材育成" },
+        { "name": "梶原信幸", "date": "2025-03", "topic": "行政情報化推進" }
       ]
     },
     {
-      "id": "P7",
-      "title": "奨学金（市奨学資金の改善／返還支援の議論連動）",
-      "description": "市奨学資金の改善と、返還支援の検討課題を整理する。",
-      "status": "in_discussion",
-      "last_updated": "2025-03",
-      "evidence": [
-        {
-          "source": "202312gikai.pdf",
-          "note": "日田市奨学資金貸付事業を一般質問。"
-        }
-      ],
-      "related_questions": [
-        {
-          "date": "2023-12",
-          "topic": "municipal_scholarship"
-        }
+      "theme_id": "T7",
+      "theme": "投票・市民参加",
+      "sakio": [
+        { "date": "2025-09", "items": ["投票環境改善（期日前投票所・過疎地域対策）"], "minutes_note": "期日前7・当日54、移動投票所/送迎は現時点未導入（継続検討）" }
       ],
       "related_councillors": [
-        {
-          "name": "今井美保",
-          "date": "2025-03",
-          "topic": "奨学金返還支援（一般質問表）"
-        }
+        { "name": "松野勝美", "date": "2023-12", "topic": "投票支援カード" },
+        { "name": "梶原信幸", "date": "2024-09", "topic": "投票率向上策" }
       ]
     }
   ],
-  "community_activities": []
+  "schema": {
+    "matrix": {
+      "theme_id": "string",
+      "theme": "string",
+      "sakio": [
+        {
+          "date": "YYYY-MM",
+          "items": ["string"],
+          "minutes_note": "string"
+        }
+      ],
+      "related_councillors": [
+        {
+          "name": "string",
+          "date": "YYYY-MM",
+          "topic": "string"
+        }
+      ]
+    }
+  }
 }
