@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>議員活動レポート</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="公約の達成状況と地域活動をシンプルに可視化するレポートサイト">
+</head>
+<body>
+  <header>
+    <div class="title">
+      <div class="kicker">Official</div>
+      <h1 id="name">議員活動レポート</h1>
+      <div class="small" id="subtitle">公約の進捗と地域活動をシンプルにお届けします</div>
+      <div class="small">最終更新: <span id="updatedAt">--</span></div>
+      <div class="small" id="links" style="margin-top:4px;"> </div>
+      <nav class="tabs" aria-label="セクション切替">
+        <button class="active" data-tab="sect-manifesto">公約の達成状況</button>
+        <button data-tab="sect-activities">地域活動レポート</button>
+        <button data-tab="sect-news">お知らせ</button>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <main>
+      <section id="sect-manifesto" class="section active">
+        <div class="controls">
+          <select id="filter-status" aria-label="ステータスで絞り込み">
+            <option value="all">すべて</option>
+            <option value="done">達成</option>
+            <option value="partial">一部達成</option>
+            <option value="wip">進行中</option>
+            <option value="none">未着手</option>
+          </select>
+          <input id="mf-search" type="search" placeholder="キーワード検索 (例: 学校施設, DX)" aria-label="公約検索">
+        </div>
+        <div class="grid"></div>
+      </section>
+      <section id="sect-activities" class="section">
+        <div class="controls">
+          <input id="ac-search" type="search" placeholder="キーワード/場所/タグで検索 (例: 三和小, eスポーツ)" aria-label="活動検索">
+        </div>
+        <div class="grid"></div>
+      </section>
+      <section id="sect-news" class="section">
+        <div class="grid"></div>
+      </section>
+    </main>
+    <footer>
+      © <span id="year"></span> 議員活動レポート
+    </footer>
+  </div>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
